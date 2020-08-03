@@ -2,7 +2,7 @@
 
         height: 100vh;
         width: 100%;
-        background-color: orangered;
+        background-color: black;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -15,7 +15,7 @@
         height: 100%;
         content: '';
         position:absolute;
-        z-index: 10; 
+        z-index: 5; 
         top: 0px;
         left: 0px;
         background: rgb(0,0,0,0,5);
@@ -27,7 +27,7 @@
         position: absolute;
         top: 0px;
         left: 0px;
-        z-index: 5;
+        z-index: 10;
         object-fit: cover;
 
 
@@ -43,3 +43,390 @@
 
 
 }
+
+
+body {
+        margin: 0;
+        padding: 0;
+        height: 3000px;    
+}
+
+
+section {
+        position: relative;
+        width: 100%;
+        height: 730px;
+        background: url(https://www.pexels.com/video/sequencing-white-lights-on-a-black-surface-2792370/);
+        background-attachment:fixed ;
+}
+
+
+
+#cutting{
+        z-index: -1;
+        border: 5px solid #FCFAFA;
+        padding: 0;
+        margin: 0;
+        height: 2200px;
+        background-color: #0C120C;
+        position: absolute;
+        top: 785px;
+        left: 363px;
+        width: 50%
+}
+
+
+
+
+
+
+
+
+#des{ 
+        height: 350px;
+        position: absolute;
+        top: 900px;
+        left: 770px;
+        width: 20%;
+        padding: 0;
+        margin: 0;
+        color: #FF9505;
+        background-color: #0C120C;
+        border: 3px solid #FCFAFA;
+        text-align: center;
+
+}
+
+#img{
+        position: absolute;
+        top: 900px;
+        left: 400px;
+        border: 5px solid #FCFAFA;
+        
+
+
+}
+
+
+
+#des2{ 
+        height: 350px;
+        position: absolute;
+        top: 1400px;
+        left: 770px;
+        width: 20%;
+        padding: 0;
+        margin: 0;
+        color: #FF9505;
+        background-color: #0C120C;
+        border: 3px solid #FCFAFA;
+        text-align: center;
+
+}
+
+#img2{
+        position: absolute;
+        top: 1400px;
+        left: 400px;
+        border: 5px solid #FCFAFA;
+        
+
+
+}
+
+
+
+
+#des3{ 
+        height: 350px;
+        position: absolute;
+        top: 1900px;
+        left: 770px;
+        width: 20%;
+        padding: 0;
+        margin: 0;
+        color: #FF9505;
+        background-color: #0C120C;
+        border: 3px solid #FCFAFA;
+        text-align: center;
+
+}
+
+#img3{
+        position: absolute;
+        top: 1900px;
+        left: 400px;
+        border: 5px solid #FCFAFA;
+        
+
+
+}
+
+
+#des4{ 
+        height: 350px;
+        position: absolute;
+        top: 2400px;
+        left: 770px;
+        width: 20%;
+        padding: 0;
+        margin: 0;
+        color: #FF9505;
+        background-color: #0C120C;
+        border: 3px solid #FCFAFA;
+        text-align: center;
+
+}
+
+#img4{
+        position: absolute;
+        top: 2400px;
+        left: 400px;
+        border: 5px solid #FCFAFA;
+        
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fade-in {
+        animation: fadeIn 34s
+}
+
+@keyframes fadeIn{
+        from{
+                opacity: 0;
+        }
+
+
+to {
+        opacity: 1;
+}
+
+}
+
+
+
+
+#square{
+        position: absolute;
+        top: 1000px;
+        left: 50px;
+        color: peru;
+        background-color: peru;
+        height: 130px;
+        padding: 20px;
+        margin: 0px;
+        width: 10%;
+        animation:w3-spin 5s infinite linear;
+        animation-duration: infinite;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: w3-spin, example;
+        
+
+
+  
+
+
+}
+
+#square1{
+        position: absolute;
+        top: 1500px;
+        left: 50px;
+        color: peru;
+        background-color: peru;
+        height: 130px;
+        padding: 20px;
+        margin: 0px;
+        width: 10%;
+        animation:w3-spin 5s infinite linear;
+        animation-duration: infinite;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: w3-spin, example;
+
+
+}
+
+#square2{
+        position: absolute;
+        top: 2000px;
+        left: 50px;
+        color: peru;
+        background-color: peru;
+        height: 130px;
+        padding: 20px;
+        margin: 0px;
+        width: 10%;
+        animation:w3-spin 5s infinite linear;
+        animation-duration: infinite;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: w3-spin, example;
+
+
+}
+
+#square3{
+        position: absolute;
+        top: 2500px;
+        left: 50px;
+        color: peru;
+        background-color: peru;
+        height: 130px;
+        padding: 20px;
+        margin: 0px;
+        width: 10%;
+        animation:w3-spin 5s infinite linear;
+        animation-duration: infinite;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: w3-spin, example;
+
+
+}
+
+
+#square4{
+        position: absolute;
+        top: 1000px;
+        left: 1300px;
+        color: peru;
+        background-color: peru;
+        height: 130px;
+        padding: 20px;
+        margin: 0px;
+        width: 10%;
+        animation:w3-spin 5s infinite linear;
+        animation-duration: infinite;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: w3-spin, example;
+        
+
+
+  
+
+
+}
+
+#square5{
+        position: absolute;
+        top: 1500px;
+        left: 1300px;
+        color: peru;
+        background-color: peru;
+        height: 130px;
+        padding: 20px;
+        margin: 0px;
+        width: 10%;
+        animation:w3-spin 5s infinite linear;
+        animation-duration: infinite;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: w3-spin, example;
+        
+
+
+  
+
+
+}
+
+#square6{
+        position: absolute;
+        top: 2000px;
+        left: 1300px;
+        color: peru;
+        background-color: peru;
+        height: 130px;
+        padding: 20px;
+        margin: 0px;
+        width: 10%;
+        animation:w3-spin 5s infinite linear;
+        animation-duration: infinite;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: w3-spin, example;
+        
+
+
+  
+
+
+}
+
+#square7{
+        position: absolute;
+        top: 2500px;
+        left: 1300px;
+        color: peru;
+        background-color: peru;
+        height: 130px;
+        padding: 20px;
+        margin: 0px;
+        width: 10%;
+        animation:w3-spin 5s infinite linear;
+        animation-duration: infinite;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: w3-spin, example;
+        
+
+
+  
+
+
+}
+
+
+
+
+
+
+

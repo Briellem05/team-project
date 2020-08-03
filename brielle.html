@@ -1,47 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my background video</title>
+    <title>BRII winning team</title>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="css" href="CSS/reset.css">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+<style>
+        body {
+          background-color:black;
+        }
 
+
+</style>
 </head>
+<body> 
 
-<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark" >
+    <a class="navbar-brand text-white" href="brielle.html" target="blank">Homepage</a>
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="isaiah.html" target="blank">Shoes <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="reese.html" target="blank">All-Stars</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="Movies.html" target="blank">Movies</a>
+        </li>
+        </ul>
+    </div>
+  </nav>
 
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section>
     <div id="hero">
 
  
-
-
-            <video
+        <video
             loop
             muted
             autoplay
             preload="auto"
             >
-                        <source src="video.mp4" type="video/mp4">
+                        <source src="video_chip.mp4" type="video/mp4">
                     your browser does not support the video tag
             </video>
 
 
             <div class="caption">
+                
+                <img class= "fade-in" src="welcome.gif" style="width:100%"  alt="text covered in fire">
 
-                <h1>welcome to my website</h1>
-                <h2>this is a subtitle</h2>
+                <div id="musicControls" class="fade-in">
+                  <button class="btnbtn-warningbtn-xs theme-button">
+                    <span class="fa fa-music"></span> Play Song!</button>
+                  <button class="btnbtn-darkbtn-xs pause-button" >
+                    <span class="fa fa-pause"></span> Pause Song</button>
+                </div>
 
 
+              </div>
+            
+            
             </div>
+
+
+          
+            
+
+</section>
+
+    <script type="text/javascript">
+        $(window).scroll(function(){
+           var scroll_position = $(window).scrollTop()/2;
+           $('section').css({
+               'background-position-x' : - scroll_position + 'px' ,
+            
+           })
+        }) 
+     </script>
+
+
+    <script src="js\app.js"></script>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="cutting"></div>
+    
+    <div id="des"><p>What is up!? The answer is the sky. Hi, my name is Reese O'Donnell.
+        <p>I am 6ft.</p>
+        <p>I play a lot of video games. </p>
+        <p>Also, I am a certifiable in a joking sense. Other than that I love to talk with people and learn about things I know nothing about.</p>
+
+    </p></div>
+
+    <img id="img" src="IMG_0961.jpg" alt="Me reese sleeping at a costume party" width="20%" height="350px">
+
+    
+    
+
+
+
+      
+    <div id="des2"><p> I just woke up, but I want to go back to bed.
+        </p>
+
+        <p> Hey everyone this is Isiah.</p>
+        <p>I am 6 ft 3 in.</p>
+        <p>I love to play basketball.</p>
+        <p>I am a very loving and caring person and I want people to be just as happy as I can be.</p>
 
     </div>
 
+    <img id="img2" src="isaiah.jpg" alt="Me reese sleeping at a costume party" width="20%" height="350px">
 
-    <script src="js/app.js"></script>
+    
+    
+    <div id="des3"><p> I am the team captain, Brie.</p>
+<p>A little bit about me is that I am 6 ft 2 in.</p>
+<p>I love to babysit and hang out with kids.</p>
+<p>I am a very competitive person. I will always try my best and always chase after my goal. You can try to knock me down and keep me on the ground, but I will get right back up stronger then ever.</p>
+  
+
+</div>
+
+<img id="img3" src="GxKm_voO_400x400.jpg" alt="Me reese sleeping at a costume party" width="20%" height="350px">
+
+
+
+
+<div id="des4">
+    <p> Hi everyone, this is Isabelle.</p>
+    <p>I am 5 ft 6 in</p>
+    <p>I am intelligent and bright.</p>
+    <p>I strive to figure out solutions for any problems that I face and I always like to give out a helping hand.</p>
+  
+  </div>
+  
+  <img id="img4" src="image_from_ios.jpg" alt="Me reese sleeping at a costume party" width="20%" height="350px">
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="w3-spin" id="square">
+        <style>
+@keyframes example {
+  0%   {background-color: red;}
+  20%  {background-color: orange;}
+  40%  {background-color: yellow;}
+  60% {background-color: green;}
+  80% {background-color: blue;}  
+  100% {background-color: purple;} 
+}
+
+        </style>
+
+
+    </div>
+
+    
+    
+    
+    
+    
+    <div class="w3-spin" id="square1">
+        <style>
+            @keyframes example {
+              0%   {background-color: red;}
+              20%  {background-color: orange;}
+              40%  {background-color: yellow;}
+              60% {background-color: green;}
+              80% {background-color: blue;}  
+              100% {background-color: purple;} 
+            }
+            
+                    </style>
+    </div>
+
+    
+    
+    
+    
+    <div class="w3-spin" id="square2">
+        <style>
+            @keyframes example {
+              0%   {background-color: red;}
+              20%  {background-color: orange;}
+              40%  {background-color: yellow;}
+              60% {background-color: green;}
+              80% {background-color: blue;}  
+              100% {background-color: purple;} 
+            }
+            
+                    </style>
+    </div>
+
+    
+    
+    
+    <div class="w3-spin" id="square3">
+        <style>
+            @keyframes example {
+              0%   {background-color: red;}
+              20%  {background-color: orange;}
+              40%  {background-color: yellow;}
+              60% {background-color: green;}
+              80% {background-color: blue;}  
+              100% {background-color: purple;} 
+            }
+            
+                    </style>
+    </div>
+
+    
+    
+    
+    
+    <div class="w3-spin" id="square4">
+        <style>
+            @keyframes example {
+              0%   {background-color: red;}
+              20%  {background-color: orange;}
+              40%  {background-color: yellow;}
+              60% {background-color: green;}
+              80% {background-color: blue;}  
+              100% {background-color: purple;} 
+            }
+            
+                    </style>
+    </div>
+
+   
+   
+   
+   
+   
+    <div class="w3-spin" id="square5">
+        <style>
+            @keyframes example {
+              0%   {background-color: red;}
+              20%  {background-color: orange;}
+              40%  {background-color: yellow;}
+              60% {background-color: green;}
+              80% {background-color: blue;}  
+              100% {background-color: purple;} 
+            }
+            
+                    </style>
+    </div>
+
+    <div class="w3-spin" id="square6">
+        <style>
+            @keyframes example {
+              0%   {background-color: red;}
+              20%  {background-color: orange;}
+              40%  {background-color: yellow;}
+              60% {background-color: green;}
+              80% {background-color: blue;}  
+              100% {background-color: purple;} 
+            }
+            
+                    </style>
+    </div>
+
+    <div class="w3-spin" id="square7">
+        <style>
+            @keyframes example {
+              0%   {background-color: red;}
+              20%  {background-color: orange;}
+              40%  {background-color: yellow;}
+              60% {background-color: green;}
+              80% {background-color: blue;}  
+              100% {background-color: purple;} 
+            }
+            
+                    </style>
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+
+   
+    <script>
+
+      // JavaScript function that wraps everything
+      $(document).ready(function() {
+
+        var captainPlanet = $(".captain-planet");
+
+        // Gets Link for Theme Song
+        var audioElement = document.createElement("audio");
+        audioElement.setAttribute("src", "LÜNE - Rêve Lucide.mp3");
+
+        // Theme Button
+        $(".theme-button").on("click", function() {
+          audioElement.play();
+        });
+        $(".pause-button").on("click", function() {
+          audioElement.pause();
+        });
+
+      })
+
+</script>
+
+
+
+
+
 
 </body>
 </html>
